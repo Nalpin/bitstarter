@@ -47,6 +47,9 @@
 
       /* Main body and headings */
       body {
+        font-family: 'Open sans', Helvetica, Arial, sans-serif;
+      }
+      .heading .subheading {
         font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
         text-align: center;
       }
@@ -67,16 +70,11 @@
         background-color: #343434;
         padding: 3% 0%;
       }
-      .video, .thermometer, .order, .social .statistics {
+      .video, .thermometer, .order, .social, .statistics {
         text-align: center;
       }
       .statistics h3, .statistics p {
         color: white;
-      }
-      
-      .video {
-        height: 124px;
-        line-height: 124px;
       }
       
       /* Marketing Copy and Footer */
@@ -141,20 +139,22 @@
 	<!-- 'actions' div contains statistics, order and share buttons -->
 	<div class="span5 actions">
 	  <div class="span8 offset2">
-	    <div class="span4">
-	      <div class="lindiv-l">
-		<h3>1000</h3> <p>backers</p>
-              </div>
-	    </div>
-	    <div class="span4">
-	      <div class="lindiv-c">
-		<h3>$6000</h3> <p>of $10,000</p>
-              </div>
-	    </div>
-	    <div class="span4">
-	      <div class="lindiv-r">
-		<h3>10</h3> <p>days left</p>
-              </div>
+	    <div class="statistics">
+	      <div class="span4">
+		<div class="lindiv-l">
+		  <h3>1000</h3> <p>backers</p>
+		</div>
+	      </div>
+	      <div class="span4">
+		<div class="lindiv-c">
+		  <h3>$6000</h3> <p>of $10,000</p>
+		</div>
+	      </div>
+	      <div class="span4">
+		<div class="lindiv-r">
+		  <h3>10</h3> <p>days left</p>
+		</div>
+	      </div>
 	    </div>
 	  </div>
 	  <div class="span10 offset1">
@@ -187,14 +187,14 @@
 	  <p>
 	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
 	    vitae eros turpis. Mauris interdum placerat quam, in volutpat 
-	    nibh accumsan non. Phasellus metus lorem, lacinia a interdum ac, 
-	    mattis at turpis. Vestibulum cursus vestibulum turpis, vel 
+	    nibh accumsan non. Phasellus metus lorem, lacinia a interdum 
+	    ac, mattis at turpis. Vestibulum cursus vestibulum turpis, vel 
 	    viverra felis pharetra quis. Donec sagittis magna vitae mi 
-	    sagittis, in pulvinar leo dictum. Aliquam non ultrices eros, at 
-	    tempus turpis. In a diam ut lorem posuere dictum non sed ipsum. 
-	    Ut eget mi vestibulum, dictum ipsum vitae, ultrices mauris. 
-	    Maecenas viverra molestie sollicitudin. Donec aliquet dolor sit 
-	    amet neque tempor dictum. 
+	    sagittis, in pulvinar leo dictum. Aliquam non ultrices eros, 
+	    at tempus turpis. In a diam ut lorem posuere dictum non sed 
+	    ipsum. Ut eget mi vestibulum, dictum ipsum vitae, ultrices 
+	    mauris. Maecenas viverra molestie sollicitudin. Donec aliquet 
+	    dolor sit amet neque tempor dictum. 
 	  </p>
 	</div>
       </div>
@@ -203,14 +203,14 @@
 	  <p>
 	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
 	    vitae eros turpis. Mauris interdum placerat quam, in volutpat 
-	    nibh accumsan non. Phasellus metus lorem, lacinia a interdum ac, 
-	    mattis at turpis. Vestibulum cursus vestibulum turpis, vel 
+	    nibh accumsan non. Phasellus metus lorem, lacinia a interdum 
+	    ac, mattis at turpis. Vestibulum cursus vestibulum turpis, vel 
 	    viverra felis pharetra quis. Donec sagittis magna vitae mi 
-	    sagittis, in pulvinar leo dictum. Aliquam non ultrices eros, at 
-	    tempus turpis. In a diam ut lorem posuere dictum non sed ipsum. 
-	    Ut eget mi vestibulum, dictum ipsum vitae, ultrices mauris. 
-	    Maecenas viverra molestie sollicitudin. Donec aliquet dolor sit 
-	    amet neque tempor dictum. 
+	    sagittis, in pulvinar leo dictum. Aliquam non ultrices eros, 
+	    at tempus turpis. In a diam ut lorem posuere dictum non sed 
+	    ipsum. Ut eget mi vestibulum, dictum ipsum vitae, ultrices 
+	    mauris. Maecenas viverra molestie sollicitudin. Donec aliquet 
+	    dolor sit amet neque tempor dictum. 
 	  </p>
 	</div>
 	<div class"span5 offset1 asset">
@@ -225,7 +225,7 @@
 	  <div class="accordion" id="accordion2">
 	    <div class="accordion-group">
 	      <div class="accordion-heading">
-		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="collapseOne">
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
 		  What does FAQ stand for?
 		</a>
 	      </div>
@@ -237,7 +237,7 @@
 	    </div>
 	    <div class="accordion-group">
 	      <div class="accordion-heading">
-		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="collapseTwo">
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
 		  What's a Frequently Asked Question?
 		</a>
 	      </div>
