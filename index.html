@@ -5,44 +5,44 @@
     <title>My First Bitstarter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet"
-	  href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link type="text/css" rel="stylesheet"
-	  href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link type="text/css" rel="stylesheet"
-	  href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+    href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
     <link type="text/css" rel="stylesheet"
-	  href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic">
+    href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic">
     <link type="text/css" rel="stylesheet"
-	  href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic">
+    href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic">
     <style type="text/css">
       /* Large Desktop */
-      @media (min-width: 980px){
-      body {
-        padding-top: 60px;
+      @media (min-width: 980px) {
+        body {
+          padding-top: 60px;
+        }
+        .linediv-l {
+          border-right: 1px white solid;
+        }
+        .linediv-r {
+          border-left: 1px white solid;
+        }
       }
-      .linediv-l {
-        border-right: 1px white solid;
-      }
-      .linediv-r {
-        border-left: 1px white solid;
-      }
-      }
-      
+
       /* Landscape phones and down */
-      @media (max-width: 480px){
-      .copy {
-        padding: 2.5% 10%;
+      @media (max-width: 480px) {
+        .copy {
+          padding: 2.5% 10%;
+        }
+        .linediv-l {
+          border-bottom: 1px white solid;
+        }
+        .linediv-r {
+          border-top: 1px white solid;
+        }
       }
-      .linediv-l {
-        border-bottom: 1px white solid;
-      }
-      .linediv-r {
-        border-top: 1px white solid;
-      }
-      }
-      
+
       /* All form factors */
 
       /* Main body and headings */
@@ -76,7 +76,7 @@
       .statistics h3, .statistics p {
         color: white;
       }
-      
+
       /* Marketing Copy and Footer */
       .copy {
         padding-top: 2.5%;
@@ -103,150 +103,178 @@
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-				<div class="container">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="brand" href="#">Bitstarter</a>
-					<div class="nav-collapse collapse">
-						<ul class="nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</div><!-- nav-collapse -->
-				</div><!-- container -->
-			</div><!-- navbar-inner -->
-		</div><!-- navbar -->
-		<!-- Resizable layout using row-fluid inside containers -->
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Bitstarter</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div><!-- nav-collapse -->
+        </div><!-- container -->
+      </div><!-- navbar-inner -->
+    </div><!-- navbar -->
+    <!-- Resizable layout using row-fluid inside containers -->
     <div class="container">
       <div class="row-fluid heading">
-				<div class="span12">
-					<h1>Compartir con un abuelo</h1>
-				</div>  
+        <div class="span12">
+          <h1>Compartir con un abuelo</h1>
+        </div>
       </div>
       <div class="row-fluid subheading">
-				<div class="span12">
-					<p class="lead">Por una etapa con dignidad y respeto.</p>
-				</div>
+        <div class="span12">
+          <p class="lead">
+            Por una etapa con dignidad y respeto.
+          </p>
+        </div>
       </div>
       <div class="row-fluid pitch">
-				<div class="span5 offset1 video">
-					<img class="img-polaroid" src="http://i954.photobucket.com/albums/ae22/nalpin/Voluntariado/todos-somos-voluntarios.jpg">
-				</div>
-				<!-- 'actions' div contains statistics, order and share buttons -->
-				<div class="span5 actions">
-					<div class="span8 offset2">
-						<div class="statistics">
-							<div class="span4">
-								<div class="lindiv-l">
-									<h3>0</h3> <p>patrocinadores</p>
-								</div>
-							</div>
-							<div class="span4">
-								<div class="lindiv-c">
-									<h3>$0</h3> <p>de $20,000</p>
-								</div>
-							</div>
-							<div class="span4">
-								<div class="lindiv-r">
-									<p>Faltan </p><h3>90</h3><p> dias</p>
-								</div>
-							</div>
-						</div><!-- statistics -->
-					</div>
-					<div class="span10 offset1">
-						<!-- Bootstrap progress bar -->
-						<!-- http://twitter.github.io/bootstrap/components.html#progress -->
-						<div class="thermometer progress active">
-							<div class="bar bar-success" style="width: 60%"></div>
-							<div class="bar bar-warning" style="width: 40%"></div>
-						</div>
-					</div>
-					<div class="span6 offset3 order">
-						<!-- Standard bootstrap button -->
-						<!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-						<button class="btn btn-success btn-large">Donate!</button>
-					</div>
-					<div class="span8 offset2 social">
-						<!-- Social buttons not included in default Bootstrap -->
-						<!-- http://noizwaves.github.io/bootstrap-social-buttons -->
-						<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-						<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
-					</div>
-				</div> <!-- actions -->
-      </div> 
+        <div class="span5 offset1 video">
+          <img class="img-polaroid" src="http://i954.photobucket.com/albums/ae22/nalpin/Voluntariado/todos-somos-voluntarios.jpg">
+        </div>
+        <!-- 'actions' div contains statistics, order and share buttons -->
+        <div class="span5 actions">
+          <div class="span8 offset2">
+            <div class="statistics">
+              <div class="span4">
+                <div class="lindiv-l">
+                  <h3>0</h3>
+                  <p>
+                    patrocinadores
+                  </p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="lindiv-c">
+                  <h3>$0</h3>
+                  <p>
+                    de $20,000
+                  </p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="lindiv-r">
+                  <p>
+                    Faltan
+                  </p><h3>90</h3>
+                  <p>
+                    dias
+                  </p>
+                </div>
+              </div>
+            </div><!-- statistics -->
+          </div>
+          <div class="span10 offset1">
+            <!-- Bootstrap progress bar -->
+            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+            <div class="thermometer progress active">
+              <div class="bar bar-success" style="width: 60%"></div>
+              <div class="bar bar-warning" style="width: 40%"></div>
+            </div>
+          </div>
+          <div class="span6 offset3 order">
+            <!-- Standard bootstrap button -->
+            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+            <button class="btn btn-success btn-large">
+              Donate!
+            </button>
+          </div>
+          <div class="span8 offset2 social">
+            <!-- Social buttons not included in default Bootstrap -->
+            <!-- http://noizwaves.github.io/bootstrap-social-buttons -->
+            <button class="btn btn-twitter">
+              <i class="icon-twitter"></i> | Twitter
+            </button>
+            <button class="btn btn-facebook">
+              <i class="icon-facebook"></i> | Facebook
+            </button>
+          </div>
+        </div>
+        <!-- actions -->
+      </div>
       <!-- Marketing copy begins -->
       <div class="row-fluid section1">
-				<div class="span5 offset1 asset">
-					<img class="img-polaroid" src="http://i954.photobucket.com/albums/ae22/nalpin/Voluntariado/manos-amor.jpg">
-				</div>
-				<div class="span5 copy">
-					<h3>Mision</h3>
-					<p>
-						Mejorar la calidad de vida de las personas de edad avanzada, 
-						mediante las diferentes actividades de voluntariado integrales
-						y de excelencia. Dando asi testimonio de Dios hacia todos.
-					</p>
-				</div>
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="http://i954.photobucket.com/albums/ae22/nalpin/Voluntariado/manos-amor.jpg">
+        </div>
+        <div class="span5 copy">
+          <h3>Mision</h3>
+          <p>
+            Mejorar la calidad de vida de las personas de edad avanzada,
+            mediante las diferentes actividades de voluntariado integrales
+            y de excelencia. Dando asi testimonio de Dios hacia todos.
+          </p>
+        </div>
       </div>
       <div class="row-fluid section2">
-				<div class="span5 offset1 copy copy-right">
-					<h3>Metas y Objetivos</h3>
-					<ul>
-						<li>Ayudar a mejorar su autoestima y superacion personal.</li>
-						<li>Mejorar su estado de salud fisica, emocional y espiritual</li>
-						<li>Fomentar el respeto y dignidad de las personas de edad avanzada</li>
-					</ul>
-				</div>
-				<div class"span5 offset1 asset">
-					<img class="img-polaroid" src="http://placehold.it/480x300">
-				</div>
+        <div class="span5 offset1 copy copy-right">
+          <h3>Metas y Objetivos</h3>
+          <ul>
+            <li>
+              Ayudar a mejorar su autoestima y superacion personal.
+            </li>
+            <li>
+              Mejorar su estado de salud fisica, emocional y espiritual
+            </li>
+            <li>
+              Fomentar el respeto y dignidad de las personas de edad avanzada
+            </li>
+          </ul>
+        </div>
+        <div class"span5 offset1 asset">
+          <img class="img-polaroid" src="http://placehold.it/480x300">
+        </div>
       </div>
       <!-- FAQ using JS accordion -->
       <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
       <div class="row-fluid faq">
-				<div class="span10 offset1">
-					<h3>FAQ</h3>
-					<div class="accordion" id="accordion2">
-						<div class="accordion-group">
-							<div class="accordion-heading">
-								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-									¿Como puedo ayudar?
-								</a>
-							</div>
-							<div id="collapseOne" class="accordion-body collapse">
-								<div class="accordion-inner">
-									Ud. puede donar no importando la cantidad. O si lo prefiere puede donar articulos para lo cual
-									solo debe contactarnos.
-								</div>
-							</div>
-						</div>
-						<div class="accordion-group">
-							<div class="accordion-heading">
-								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-									¿Que necesito para unirme como voluntario?
-								</a>
-							</div>
-							<div id="collapseTwo" class="accordion-body collapse">
-								<div class="accordion-inner">
-									Solo necesita tener el deseo de ayudar a otros donar parte de su tiempo libre.
-								</div>
-							</div>
-						</div>
-					</div><!-- accordion -->
-				</div>
+        <div class="span10 offset1">
+          <h3>FAQ</h3>
+          <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> ¿Como puedo ayudar? </a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  Ud. puede donar no importando la cantidad. O si lo prefiere puede donar articulos para lo cual
+                  solo debe contactarnos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> ¿Que necesito para unirme como voluntario? </a>
+              </div>
+              <div id="collapseTwo" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  Solo necesita tener el deseo de ayudar a otros donar parte de su tiempo libre.
+                </div>
+              </div>
+            </div>
+          </div><!-- accordion -->
+        </div>
       </div><!-- faq -->
       <!-- CC 3.0 License -->
       <div class="row-fluid footer">
-				<div class="span12">
-					<p>This work is license under the
-						<a href="http://creativecommons.org/licences/by-sa/3.0/">CC By-SA 3.0</a>
-						by Nestor Pineda 
-					</p>
-				</div>
+        <div class="span12">
+          <p>
+            This work is license under the <a href="http://creativecommons.org/licences/by-sa/3.0/">CC By-SA 3.0</a>
+            by Nestor Pineda
+          </p>
+        </div>
       </div>
     </div>
   </body>
